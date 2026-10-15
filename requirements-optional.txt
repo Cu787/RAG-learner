@@ -1,0 +1,10 @@
+# 可选依赖 —— 不装也能跑通项目主体。
+# 想体验更好效果时，按需单独安装：
+#
+# 1) 语义向量（检索更聪明，会下载 PyTorch 与预训练模型，体积较大）：
+#    pip install sentence-transformers
+#
+# 2) 本地大模型生成（需先安装 Ollama：https://ollama.com）：
+#    pip install requests
+sentence-transformers>=2.6
+requests>=2.31
